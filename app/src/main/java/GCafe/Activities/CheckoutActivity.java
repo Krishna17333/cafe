@@ -154,9 +154,9 @@ public class CheckoutActivity extends AppCompatActivity {
                     binding.phoneBox.requestFocus();
                     binding.phoneBox.setError("Empty");
 
-                } else if (binding.addressBox.getText().toString().isEmpty()) {
-                    binding.addressBox.requestFocus();
-                    binding.addressBox.setError("Empty");
+                } else if (binding.nameBox.getText().toString().isEmpty()) {
+                    binding.nameBox.requestFocus();
+                    binding.nameBox.setError("Empty");
                 } else {
                     processOrder();
                 }
@@ -174,7 +174,7 @@ public class CheckoutActivity extends AppCompatActivity {
         JSONObject productOrder = new JSONObject();
         JSONObject dataObject = new JSONObject();
         try{
-            productOrder.put("address",binding.addressBox.getText().toString());
+            productOrder.put("address",binding.nameBox.getText().toString());
             productOrder.put("buyer",binding.nameBox.getText().toString());
             productOrder.put("comment", binding.commentBox.getText().toString());
             productOrder.put("created_at", Calendar.getInstance().getTimeInMillis());

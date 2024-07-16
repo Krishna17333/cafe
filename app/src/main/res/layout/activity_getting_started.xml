@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="14dp"
             android:fontFamily="@font/roboto"
-            android:text="GU Cafe"
+            android:text="BMS Cafe"
             android:textColor="@color/white"
             android:textSize="34dp"
             android:textStyle="bold"

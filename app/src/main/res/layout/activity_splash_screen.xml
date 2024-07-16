@@ -4,30 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background= "@color/splashbg"
+    android:background= "@color/homebg"
     tools:context="GCafe.Activities.SplashScreenActivity">
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="416dp"
+        android:layout_height="728dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/teabg" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="500dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="-200dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/redball" />
+        app:layout_constraintVertical_bias="0.333"
+        app:srcCompat="@drawable/bg" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -37,6 +27,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.765"
-        app:srcCompat="@drawable/namecafe" />
+        app:srcCompat="@drawable/cafe2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
